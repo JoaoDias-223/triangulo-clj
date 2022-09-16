@@ -46,7 +46,7 @@
 (defn isosceles?
   "TODO: Verifica se pelo menos dois lados sao iguais."
   [a b c]
-  (and (not (equilateral? a b c)) (not (distinct? a b c))))
+    (not (distinct? a b c)))
 
 (defn escaleno?
   "TODO: Verifica se os lados dos triangulos sao diferentes entre si."
